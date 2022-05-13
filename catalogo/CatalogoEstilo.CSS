@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+  }
+
+.navbar{
+    width: 100%;
+}
+.main-header {
+    margin: 0;
+    padding: 0 20px;
+    width: 100% !important;
+}
+
+.main-header__title {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #454546;
+}
+
+.main-nav {
+    display: none;
+}
+
+.main-header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header__btn {
+    display: block;
+    padding: 10px 30px;
+    color: #454546;
+    border: 1px solid #454546;
+    text-decoration: none;
+}
+
+.main {
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+.catalogo-title{
+  text-align: center;
+}
+  
+.contenido-catalogo{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+body h2{
+    width: 100%;
+    color: #999;
+    font-family: monospace;
+  }
+.card{
+    width: 33.333333%;
+  }
+.Catalogo{
+    font-family: sans-serif;
+    width: auto;
+  }
+.Catalogo .img-container{
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+  }
+.Catalogo .img-container img{
+    width: 100%;
+    position: absolute;
+    top: auto;
+    transition: all 0.5s;
+  }
+.Catalogo:hover .img-container img{
+    transform: scale(1.2);
+  }
+.Catalogo .img-container .promo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: yellow;
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+.Catalogo .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+.Catalogo .info-container h3{
+    margin: 0;
+  }
+.Catalogo .info-container h3,
+.Catalogo .info-container strong,
+.Catalogo .info-container span{
+    padding: 5px 15px;
+    width: 100%;
+  }
+.Catalogo .add-cart{
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+.Catalogo .add-cart:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+#productos{
+    height: 50vh;
+    overflow-y: auto;
+}
+#total{
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+  .main-footer {
+    background: #151515;
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer__title {
+    border-bottom: 1px #555 dotted;
+    padding-bottom: 20px;
+}
+
+.footer__txt {
+    color: #555;
+}
+
+.footer__link {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.footer__input {
+    background: #151515;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 1px #555 solid;
+    color: white;
+}
+
+
+
+.copy{
+    color: #555;
+    margin: auto;
+    padding-top: 25px;
+}

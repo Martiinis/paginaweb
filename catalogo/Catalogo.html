@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo</title>
+  <link rel="stylesheet" href="CatalogoEstilo.CSS">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="catalogo Img/icono pagina.jpg">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container container--flex">
+        <div class="main-header__container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/inicio/index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/catalogo/Catalogo.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Mis Compras</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Iniciar Sesión
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="/loginPagina/Login.html">Iniciar Sesión</a></li>
+                          <li><a class="dropdown-item" href="/RegistroPAgina/Registro.html">Registrarse</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                      <button class="btn btn-outline-warning" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </form>
+                    
+                  </div>
+                </div>
+            </nav>               
+        </div>
+        <div class="main-header__container">
+            <h1 class="main-header__title"><i class="fa-solid fa-fan"></i>FLORERÍA </h1>
+            <p class="main-header__txt"><i class="fa-solid fa-phone"></i> Contáctanos +56912345678</p>
+        </div>
+        <!--<div class="main-header__container">
+            <a href="" class="main-header__btn">Mi Carro<i class="fa-solid fa-cart-shopping"></i></a>
+        </div>-->
+    </div>
+</header>
+  <div class="contenido-catalogo">
+    <div class="container-fluid">
+      <div class="row catalogo-title">
+        <h1>Productos</h1>
+      </div>
+    </div>
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/Kit Jardineria Completo.jpg" alt="producto 1">
+          <span class="promo">15% de descuento</span>
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Kit Jardineria Completo</h3>
+        <strong style="text-decoration:line-through" >$10000</strong>
+        <strong>$8.500</strong>
+        <span class="rating">★★★★★</span>
+        <span> (9) unidades en stock</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/Fertilizante.jpg" alt="producto 1">
+          <span class="promo">15% de descuento</span>
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Fertilizante</h3>
+        <strong style="text-decoration:line-through" >$2500</strong>
+        <strong>$2.125</strong>
+        <span class="rating">★★★★☆</span>
+        <span> (500+) unidades en stock</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/KitJardineria.jpg" alt="producto 1">
+          <span class="promo">15% de descuento</span>
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Kit Jardineria</h3>
+        <strong style="text-decoration:line-through" >$8000</strong>
+        <strong>$6.8000</strong>
+        <span class="rating">★★★★☆</span>
+        <span> (5) unidades en stock</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/KitJardineriaSimple.jpg" alt="producto 1">
+          <span class="promo">13% de descuento</span>
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Kit Jardineria Simple</h3>
+        <strong style="text-decoration:line-through" >$4500</strong>
+        <strong>$3.915</strong>
+        <span> (20) unidades en stock</span>
+        <span class="rating">★★★★★</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/Maseta.jpg" alt="producto 1">
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Maseta</h3>
+        <strong>$500</strong>
+        <span class="rating">★★★☆☆</span>
+        <span> (215+) unidades en stock</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/semillas.jpg" alt="producto 1">
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Semillas De Girasol</h3>
+        <strong>$300</strong>
+        <span class="rating">★★★★★</span>
+        <span> (1000+) unidades en stock</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+    <div class="card Catalogo">
+      <a href="#">
+        <div class="img-container">
+          <img src="catalogo Img/Tijeras.jpg" alt="producto 1">
+        </div>
+      </a>
+      <div class="info-container">
+        <h3>Tijeras</h3>
+        <strong>$5000</strong>
+        <span class="rating">★★★☆☆</span>
+        <span> (19) unidades en stock</span>
+        <a href="#" class="add-cart">Añadir al carrito</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h1>Agregar Productos</h1>
+    <form action="#" class="col-6">
+      <label for="#">Nombre producto</label>
+      <input type="text" class="form-control" id="nombre">
+      <label for="#">Precio</label>
+      <input type="number" class="form-control" id="precio">
+      <label for="#">Cantidad</label>
+      <input type="number" class="form-control" id="cantidad">
+      <div class="row mt-3"></div>
+      <button type="button" class="btn btn-success" id="agregar">Agregar</button>
+      <button type="button" class="btn btn-success" id="guardar">Guardar</button>
+
+    </form>
+
+    <div class="col-12 mt-3" id="productos">
+      <table class="table table-striped" id="lista">
+        <tr>
+          <td>Nombre</td>
+          <td>Precio</td>
+          <td>Cantidad</td>
+          <td>Total</td>
+          <td>Acciones</td>
+        </tr>
+        <!-- Aquí agregar td en caso de no ocupar java scriiii -->
+      </table>
+    </div>
+    <div class="col-10 tex-right" id="total">
+    </div>
+  </div>
+
+
+  <footer class="main-footer">
+    <div class="footer_section">
+        <h2 class="footer__title">Nosotros</h2>
+        <p class="footer__txt">Somos una florería joven dispuestos a ofrecerles productos de alta calidad.</p>
+    </div>
+    <div class="footer_section">
+        <h2 class="footer__title">Ubicación :</h2>
+        <p class="footer__txt">Melipilla, Chile</p>
+        <h2 class="footer__title">Contacto :</h2>
+        <p class="footer__txt">Celular : +569 12345678</p>
+        <p class="footer__txt">Correo : floreriasanrosendo@gmail.com</p>
+    </div>
+    <div class="footer_section">
+        <h2 class="footer__title">Acceso Rápido</h2>
+        <a href="/inicio/index.html" class="footer__link">Inicio</a>
+        <a href="/catalogo/Catalogo.html" class="footer__link">Productos</a>
+        <a href="" class="footer__link">Mis Compras</a>
+        <a href="" class="footer__link">Galería De Imágenes</a>
+        <a href="" class="footer__link">Contacto</a>
+
+    </div>
+    <div class="footer_section">
+        <h2 class="footer__title">Registrate para recibir ofertas!</h2>
+        <p class="footer__txt">Suscríbete con tu correo eléctronico para conocer todas las novedades y actualizaciones!</p>
+        <input type="email" class="footer__input" placeholder="Ingresa tu email">
+        <button type="submit" class="btn btn-warning">enviar</button>
+
+    </div>
+    <p class="copy">© 2022 Floreria San Rosendo. Todos los derechos reservados.</p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
